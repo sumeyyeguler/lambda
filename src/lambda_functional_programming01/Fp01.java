@@ -178,6 +178,6 @@ public class Fp01 {
 
         List<Double> sonuc =  list.stream().distinct().filter(t-> t>5).map(t->t/2.0).sorted(Comparator.reverseOrder()).collect(Collectors.toList());
 
-        System.out.println(sonuc);
+        
     }
 }
